@@ -2,20 +2,21 @@
 body{
 	background-color: rgb(204, 204, 204);
 }
-h1,h2,h3{
+h1,h2{
 	text-align:center;
 }
 li{
 	list-style-type:none;
+	text-decoration-line: none;
 }
 
-video{
-	background-color:rgb(255,255,255);
+..player_one{
+background-color: rgb(255, 255, 255);
 	padding:5px;
 	border-radius:5px;
 }
-audio{
-	background-color: rgb(255, 255, 255);
+..player_two{
+background-color: rgb(255, 255, 255);
 	padding:5px; 
 	border-radius:5px;
 }
